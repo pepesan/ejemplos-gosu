@@ -1,6 +1,5 @@
 package example
 
-uses example.Foo
 uses org.junit.Assert
 uses org.junit.Test
 
@@ -14,6 +13,11 @@ class FooTest {
 
     print(foo.doSomething("eureka"))
     Assert.assertEquals(42, foo.MeaningOfLife)
+  }
+
+  @Test
+  function testMain() : void {
+    Main.main({"Hola"})
   }
 
 }
