@@ -8,5 +8,13 @@ class Ejemplo01Variables {
     print(one)
     var guess : String = null  // Must declare the type because it can't be inferred
     print(guess)
+
+    // operators
+    one++;
+    print(one)
+    one--;
+    print(one)
+    // == === !=
+    // <,  >, >=, <=
   }
 }

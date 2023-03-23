@@ -10,14 +10,15 @@ class FooTest {
     print("newing a Foo")
     var foo = new Foo()
     Assert.assertNotNull(foo)
-
-    print(foo.doSomething("eureka"))
+    var cadena = "eureka"
+    print(foo.doSomething(cadena))
     Assert.assertEquals(42, foo.MeaningOfLife)
   }
 
   @Test
   function testMain() : void {
-    Main.main({"Hola"})
+    var cadena = "Hola"
+    Main.main({cadena})
   }
 
 }

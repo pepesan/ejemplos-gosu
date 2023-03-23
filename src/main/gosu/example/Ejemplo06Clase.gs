@@ -1,7 +1,10 @@
 package example
 
+// como el import
+uses java.util.List
 
-public class Ejemplo05Clase{
+
+public class Ejemplo06Clase {
 
   var _names : List<String> // a private class var
 
@@ -22,9 +25,19 @@ public class Ejemplo05Clase{
     }
   }
 
-  // A public property getter, making 'Names' a read-only property
+  // A public property getter
   property get Names() : List<String> {
     return _names
   }
 
+  // A public property setter
+  property set Names(names: List<String> ) : void {
+    _names= names
+  }
+  @Override
+  function  toString(): String   {
+      return "Ejemplo06Clase{" +
+          "_names=" + _names +
+          '}';
+  }
 }
