@@ -3,7 +3,7 @@ package example
 class Ejemplo03ClaseSimple {
   private var _bar = "value";
   // A public constructor
-  construct(  ) {
+  construct( bar : String = "" ) {
     _bar = ""
   }
 

@@ -8,8 +8,11 @@ public class Ejemplo06ClaseApp {
     var listado = {"joe", "john", "jack"}
     var c = new Ejemplo06Clase(listado)
     c.printNames("* ")
-    print( c.Names )
-    c.Names=listado
+    print( c.names )
+    c.names=listado
+    print(c.names)
     print(c)
+    c.publica = ""
+
   }
 }

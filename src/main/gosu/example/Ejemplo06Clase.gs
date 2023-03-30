@@ -6,7 +6,9 @@ uses java.util.List
 
 public class Ejemplo06Clase {
 
-  var _names : List<String> // a private class var
+  public var publica: String  = "";
+
+  private var _names : List<String> // a private class var
 
   // A public constructor
   construct(  ) {
@@ -14,8 +16,8 @@ public class Ejemplo06Clase {
   }
 
   // A public constructor
-  construct( names : List<String> ) {
-    _names = names
+  construct( nam : List<String> ) {
+    _names = nam
   }
 
   // A public function
@@ -26,13 +28,13 @@ public class Ejemplo06Clase {
   }
 
   // A public property getter
-  property get Names() : List<String> {
+  property get names() : List<String> {
     return _names
   }
 
   // A public property setter
-  property set Names(names: List<String> ) : void {
-    _names= names
+  property set names(nam: List<String> ) : void {
+    _names= nam
   }
   @Override
   function  toString(): String   {

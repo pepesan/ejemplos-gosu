@@ -30,6 +30,18 @@ class Ejemplo02Estructuras {
       print("son distintas")
     }
 
+    var val1 = 1;
+    var val2 = 2;
+    var val3 = 3;
+
+    if(val1 > val3 and val1 > val2){
+      print("val1 es mayor")
+    } else if (val2 > val1 and val2 > val3){
+      print("val2 es mayor")
+    } else {
+      print("val3 es mayor")
+    }
+
     // comparación números
     var i = 0;
     var j = 1;
@@ -40,6 +52,20 @@ class Ejemplo02Estructuras {
     // mayor que
     if (i>j){
       print("i>j")
+    }
+
+
+    i = 3;
+    switch (i){
+      case 0:
+        print("zero")
+        break
+      case 1:
+        print("one")
+        break
+
+      default:
+        print("default")
     }
 
     print("Bucles")

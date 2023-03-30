@@ -9,6 +9,9 @@ public class Ejemplo08ClaseApp{
     objeto.printNames(".- ")
     objeto.dameArgumentos()
     objeto.dameArgumentos(:suffix= ",")
+    objeto.dameArgumentos(:prefix = "> ")
     objeto.dameArgumentos(:suffix= ",", :prefix = "> ")
+    objeto.dameArgumentos(:prefix = "> ", :suffix= "," )
+    objeto.dameArgumentos(",","> ")
   }
 }
