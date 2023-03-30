@@ -22,4 +22,5 @@ class Hija extends Madre {
     print("Nombre: " + this.nombre + ", Edad: " + this.edad + ", Cuarto: " + this.cuarto)
   }
   */
+
 }
